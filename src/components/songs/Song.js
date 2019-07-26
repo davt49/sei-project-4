@@ -11,7 +11,7 @@ const Song = ({ image, title, id }) => {
             <img src={image} className="img-responsive"/>
           </div>
           <div className="card-header">
-            <div className="card-title h5">{title}</div>
+            <div className="card-title">{title}</div>
           </div>
         </Link>
 

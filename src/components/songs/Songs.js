@@ -49,7 +49,7 @@ class SongIndex extends React.Component {
         </div>
         {
           !this.state.data &&
-          <img src='https://media2.giphy.com/media/mFHVvtrf1n3qm3pdvr/giphy.gif?cid=790b76115d25fc155230413373f1d5d2&rid=giphy.gif' />
+          <img src='https://media.giphy.com/media/spcf2UJICfAs/giphy.gif' />
         }
         {
           this.state.data &&
@@ -111,7 +111,7 @@ class SongIndex extends React.Component {
                         id="tag-4"
                         className="filter-tag"
                         name="category"
-                        value="Benevolent"
+                        value="Radiant"
                         onChange={(e) => {
                           this.handleChange(e, 4)
                         }
@@ -120,29 +120,29 @@ class SongIndex extends React.Component {
                       />
                       <div className="filter-nav has-text-centered">
                         <label
-                          className={`filtertag chip ${this.state.checked === 0 ? 'bg-warning' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 0 ? 'has-text-primary' : ''}`}
                           htmlFor="tag-0">
-                            All Songs
+                            Avant-Garde
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 1 ? 'bg-warning' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 1 ? 'has-text-primary' : ''}`}
                           htmlFor="tag-1">
                             Melancholy
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 2 ? 'bg-warning' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 2 ? 'has-text-primary' : ''}`}
                           htmlFor="tag-2">
                             Erratic
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 3 ? 'bg-warning' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 3 ? 'has-text-primary' : ''}`}
                           htmlFor="tag-3">
                             Smash
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 4 ? 'bg-warning' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 4 ? 'has-text-primary' : ''}`}
                           htmlFor="tag-4">
-                            Benevolent
+                            Radiant
                         </label>
                       </div>
                     </div>
@@ -150,10 +150,12 @@ class SongIndex extends React.Component {
                 </div>
               </div>
             </div>
-            <div className='songsbunch columns is-multiline'>
-              {this.filterSongs().map(song =>
-                <Song key={song.id} {...song} />
-              )}
+            <div className="container">
+              <div className='songsbunch columns is-multiline'>
+                {this.filterSongs().map(song =>
+                  <Song key={song.id} {...song} />
+                )}
+              </div>
             </div>
           </div>
 

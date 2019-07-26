@@ -43,6 +43,7 @@ class SongsShow extends React.Component {
                       return `${category.name} `
                     })}
                   </div>
+                  <h4>{song.album}</h4>
                   <p>{song.description}</p>
                   <Link to="/songs" className="float-right">Back to Songs</Link>
                 </div>
