@@ -6,12 +6,14 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Login from './components/auth/login'
 import Register from './components/auth/register'
 import Songs from './components/songs/songs'
+import SongsShow from './components/songs/SongsShow'
 
 const App = () => {
   return (
     <BrowserRouter>
       <main>
         <Switch>
+          <Route path='/songs/:id' component={SongsShow}/>
           <Route path='/songs' component={Songs}/>
           <Route path='/register' component={Register}/>
           <Route exact path='/' component={Login} />

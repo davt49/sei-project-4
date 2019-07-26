@@ -1,0 +1,33 @@
+.songsshowbg{
+  height: 150vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: navy;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: white;
+}
+.sstitle{
+  font-size:60px;
+  color: navy;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: white;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.sslyric{
+  font-size: 40px;
+  color: navy;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: white;
+
+}
+
+.sscategories{
+  text-decoration: overline;
+}
+
+.ssinfo{
+  margin-bottom: 200px;
+}

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from  'react-router-dom'
 
-const Song = ({ image, title, _id }) => {
+const Song = ({ image, title, id }) => {
   return (
     <div className="column is-3 songs-card">
 
       <div className="card songs-card">
-        <Link to={`/songs/${_id}`} >
+        <Link to={`/songs/${id}`} >
           <div className="card-image">
             <img src={image} className="img-responsive"/>
           </div>

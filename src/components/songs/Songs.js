@@ -54,7 +54,7 @@ class SongIndex extends React.Component {
         {
           this.state.data &&
           <div>
-            <h1 className="songsifeel has-text-centered">Today I feel the</h1>
+            <h1 className="songsifeel has-text-centered">Today I feel</h1>
             <div className="hero">
               <div className="hero-body">
                 <div className="container">
@@ -122,7 +122,7 @@ class SongIndex extends React.Component {
                         <label
                           className={`filtertag chip ${this.state.checked === 0 ? 'bg-warning' : ''}`}
                           htmlFor="tag-0">
-                            All
+                            All Songs
                         </label>
                         <label
                           className={`filtertag chip ${this.state.checked === 1 ? 'bg-warning' : ''}`}
