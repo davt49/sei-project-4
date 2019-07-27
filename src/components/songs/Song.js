@@ -10,7 +10,7 @@ const Song = ({ image, title, id }) => {
           <div className="card-image">
             <img src={image} className="img-responsive"/>
           </div>
-          <div className="card-header">
+          <div className=" has-text-centered">
             <div className="card-title">{title}</div>
           </div>
         </Link>

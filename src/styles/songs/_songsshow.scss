@@ -9,17 +9,56 @@
   // -webkit-text-stroke-color: royalblue;
 }
 .sstitle{
-  font-size:60px;
-  color: Khaki;
+  font-size:80px;
+  color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: royalblue;
-  margin-top: 50px;
-  margin-bottom: 200px;
+
 }
+
+.react-h5-audio-player {
+  width: 30vw;
+  height: 10px;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 160px;
+
+  .flex{
+    background-color: rgba(1,1,1,0) !important;
+    box-shadow: none !important;
+  }
+
+  .toggle-play-wrapper {
+    .toggle-play-button {
+      // Remember to use !important to overwrite inline styles.
+      margin-left: -10px !important;
+    }
+  }
+
+  .progress-bar-wrapper {
+    .progress-bar {
+      background: white !important;
+    }
+    .indicator {
+      background: rgb(251, 86, 21) !important;
+    }
+    .audio-info{
+      .volume-controls{
+        display: none !important;
+        .volumn{
+          // border-bottom: solid royalblue;
+        }
+      }
+    }
+  }
+}
+
+
+
 
 .sslyric{
   font-size: 40px;
-  color: Khaki;
+  color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: royalblue;
 
@@ -27,8 +66,14 @@
 
 .sscategories{
   text-decoration: overline;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: royalblue;
 }
 
 .ssinfo{
   margin-bottom: 200px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: royalblue;
 }

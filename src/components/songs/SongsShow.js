@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import axios from 'axios'
 // import Auth from '../../lib/Auth'
 import { Link } from  'react-router-dom'
+import AudioPlayer from 'react-h5-audio-player'
 
 class SongsShow extends React.Component {
   constructor() {
@@ -34,6 +35,12 @@ class SongsShow extends React.Component {
             <div className="columns is-block">
               <div className="column is-12">
                 <h2 className="sstitle">{song.title}</h2>
+
+                <AudioPlayer
+                  autoPlay
+                  src={song.music}
+                />
+
               </div>
               <div className="columns is-block">
                 <div className="column is-5 is-offset-7">
@@ -43,8 +50,10 @@ class SongsShow extends React.Component {
                       return `${category.name} `
                     })}
                   </div>
-                  <h4>{song.album}</h4>
-                  <p>{song.description}</p>
+                  <div className="ssinfo">
+                    <h4>{song.album}</h4>
+                    <p>{song.description}</p>
+                  </div>
                   <Link to="/songs" className="float-right">Back to Songs</Link>
                 </div>
               </div>

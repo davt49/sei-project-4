@@ -35,7 +35,7 @@ with app.app_context():
     burn_the_witch = Song(
         title='Burn The Witch',
         album='A Moon Shaped Pool',
-        music='.',
+        music='../assets/resource/music/BurnTheWitch.mp3',
         image='../assets/resource/pictures/burnthewitch.jpg',
         lyric='This is a low flying panic attack',
         description='.',
@@ -46,7 +46,7 @@ with app.app_context():
     daydreaming = Song(
         title='Daydreaming',
         album='A Moon Shaped Pool',
-        music='.',
+        music='../assets/resource/music/Daydreaming.mp3',
         image='../assets/resource/pictures/anima.jpg',
         lyric='Dreamers, they never learn',
         description='.',
@@ -57,7 +57,7 @@ with app.app_context():
     true_love_waits = Song(
         title='True Love Waits',
         album='A Moon Shaped Pool',
-        music='.',
+        music='../assets/resource/music/TrueLoveWaits.mp3',
         image='../assets/resource/pictures/thomslight.jpg',
         lyric='I’m not living, I’m just killing time',
         description='.',
@@ -112,7 +112,7 @@ with app.app_context():
     decks_dark = Song(
         title='Decks Dark',
         album='A Moon Shaped Pool',
-        music='.',
+        music='../assets/resource/music/DecksDark.mp3',
         image='../assets/resource/pictures/moonshapedpool.jpg',
         lyric='There’s a spaceship blocking out the sky',
         description='.',
@@ -123,8 +123,8 @@ with app.app_context():
     fifteen_step = Song(
         title='15 Step',
         album='In Rainbows',
-        music='.',
-        image='../assets/resource/pictures/glastoradioh.jpg',
+        music='../assets/resource/music/15Step.mp3',
+        image='../assets/resource/pictures/inrainbows.jpg',
         lyric='You reel me out when you cut the string',
         description='.',
         review_link='.',
@@ -134,7 +134,7 @@ with app.app_context():
     bodysnatchers = Song(
         title='Bodysnatchers',
         album='In Rainbows',
-        music='.',
+        music='../assets/resource/music/Bodysnatchers.mp3',
         image='../assets/resource/pictures/epiclights.jpg',
         lyric='And for anyone else to see, I’m alive',
         description='.',
@@ -145,7 +145,7 @@ with app.app_context():
     nude = Song(
         title='Nude',
         album='In Rainbows',
-        music='.',
+        music='../assets/resource/music/Nude.mp3',
         image='../assets/resource/pictures/thomdrawing.jpg',
         lyric='You paint yourself white',
         description='.',
@@ -156,7 +156,7 @@ with app.app_context():
     reckoner = Song(
         title='Reckoner',
         album='In Rainbows',
-        music='.',
+        music='../assets/resource/music/Reckoner.mp3',
         image='../assets/resource/pictures/radioheadart.jpg',
         lyric='Because we separate like ripples on a blank shore',
         description='.',
@@ -167,7 +167,7 @@ with app.app_context():
     house_of_cards = Song(
         title='House of Cards',
         album='In Rainbows',
-        music='.',
+        music='../assets/resource/music/HouseOfCards.mp3',
         image='../assets/resource/pictures/inrainbowsart.jpg',
         lyric='Forget about your house of cards and I’ll do mine',
         description='.',
@@ -178,7 +178,7 @@ with app.app_context():
     jigsaw_falling_into_place = Song(
         title='Jigsaw Falling Into Place',
         album='In Rainbows',
-        music='.',
+        music='../assets/resource/music/JigsawFallingIntoPlace.mp3',
         image='../assets/resource/pictures/fjord.jpg',
         lyric='Words are a sawed off shotgun',
         description='.',
@@ -189,7 +189,7 @@ with app.app_context():
     bangers_and_mash = Song(
         title='Bangers and Mash',
         album='In Rainbows',
-        music='.',
+        music='../assets/resource/music/BangersandMash.mp3',
         image='../assets/resource/pictures/glastored.jpg',
         lyric='I got the poison, poison, and now I want more',
         description='.',
@@ -200,7 +200,7 @@ with app.app_context():
     airbag = Song(
         title='Airbag',
         album='OK Computer',
-        music='.',
+        music='../assets/resource/music/Airbag.mp3',
         image='../assets/resource/pictures/OKComputer.jpg',
         lyric='I am born again',
         description='.',
@@ -211,7 +211,7 @@ with app.app_context():
     paranoid_android = Song(
         title='Paranoid Android',
         album='OK Computer',
-        music='.',
+        music='../assets/resource/music/ParanoidAndroid.mp3',
         image='../assets/resource/pictures/band.jpg',
         lyric='Please could you stop the noise',
         description='.',
@@ -222,7 +222,7 @@ with app.app_context():
     karma_police = Song(
         title='Karma Police',
         album='OK Computer',
-        music='.',
+        music='../assets/resource/music/KarmaPolice.mp3',
         image='../assets/resource/pictures/yorkebow.jpg',
         lyric='Phew, for a minute there, I lost myself, I lost myself',
         description='.',
@@ -233,7 +233,7 @@ with app.app_context():
     no_surprises = Song(
         title='No Surprises',
         album='OK Computer',
-        music='.',
+        music='../assets/resource/music/NoSurprises.mp3',
         image='../assets/resource/pictures/thomlight.jpg',
         lyric='I’ll take a quiet life',
         description='.',
@@ -244,7 +244,7 @@ with app.app_context():
     man_of_war = Song(
         title='Man of War',
         album='OK Computer',
-        music='.',
+        music='../assets/resource/music/ManofWar.mp3',
         image='../assets/resource/pictures/manofwar.jpg',
         lyric='Dressed for the kill',
         description='.',
@@ -255,7 +255,7 @@ with app.app_context():
     just = Song(
         title='Just',
         album='The Bends',
-        music='.',
+        music='../assets/resource/music/Just.mp3',
         image='../assets/resource/pictures/oldbandppic.jpg',
         lyric='You do it to yourself, just you',
         description='.',
@@ -266,7 +266,7 @@ with app.app_context():
     high_and_dry = Song(
         title='High And Dry',
         album='The Bends',
-        music='.',
+        music='../assets/resource/music/HighandDry.mp3',
         image='../assets/resource/pictures/oldtable.jpg',
         lyric='The best thing that you ever, ever had',
         description='.',
@@ -277,7 +277,7 @@ with app.app_context():
     fake_plastic_trees = Song(
         title='Fake Plastic Trees',
         album='The Bends',
-        music='.',
+        music='../assets/resource/music/FakePlasticTrees.mp3',
         image='../assets/resource/pictures/thompink.jpg',
         lyric='A cracked polystyrene man',
         description='.',
@@ -288,7 +288,7 @@ with app.app_context():
     talk_show_host = Song(
         title='Talk Show Host',
         album='The Bends',
-        music='.',
+        music='../assets/resource/music/TalkShowHost.mp3',
         image='../assets/resource/pictures/jackets.jpg',
         lyric='With a gun and a pack of sandwiches and nothing',
         description='.',
@@ -299,7 +299,7 @@ with app.app_context():
     everything_in_its_right_place = Song(
         title='Everything in its Right Place',
         album='Kid A',
-        music='.',
+        music='../assets/resource/music/EverythinginItsRightPlace.mp3',
         image='../assets/resource/pictures/rhred.jpg',
         lyric='Yesterday I woke up sucking on a lemon',
         description='.',
@@ -310,7 +310,7 @@ with app.app_context():
     kid_a = Song(
         title='Kid A',
         album='Kid A',
-        music='.',
+        music='../assets/resource/music/KidA.mp3',
         image='../assets/resource/pictures/kidamountains.jpg',
         lyric='Standing in the shadows at the end of my bed',
         description='.',
@@ -321,7 +321,7 @@ with app.app_context():
     national_anthem = Song(
         title='The National Anthem',
         album='Kid A',
-        music='.',
+        music='../assets/resource/music/TheNationalAnthem.mp3',
         image='../assets/resource/pictures/jonnyg.jpg',
         lyric='Everyone, everyone around here',
         description='.',
@@ -332,7 +332,7 @@ with app.app_context():
     idioteque = Song(
         title='Idioteque',
         album='Kid A',
-        music='.',
+        music='../assets/resource/music/Idioteque.mp3',
         image='../assets/resource/pictures/teal.jpg',
         lyric='Who\'s in a bunker?',
         description='.',
@@ -343,7 +343,7 @@ with app.app_context():
     two_plus_two_equals_five = Song(
         title='2+2=5',
         album='Hail to The Thief',
-        music='.',
+        music='../assets/resource/music/2+2=5.mp3',
         image='../assets/resource/pictures/htttcow.jpg',
         lyric='I try to sing along and I get it all wrong',
         description='.',
@@ -354,7 +354,7 @@ with app.app_context():
     there_there = Song(
         title='There There',
         album='Hail to The Thief',
-        music='.',
+        music='../assets/resource/music/ThereThere.mp3',
         image='../assets/resource/pictures/radioheadgpstage.jpg',
         lyric='Steer away from these rocks',
         description='.',
@@ -365,7 +365,7 @@ with app.app_context():
     packt = Song(
         title='Packt Like Sardines in a Crushed Tin Box',
         album='Amnesiac',
-        music='.',
+        music='../assets/resource/music/PacktLikeSardinesinaCrushdTinBox.mp3',
         image='../assets/resource/pictures/radioheadbeargrass.jpg',
         lyric='Get off, get off, get off my case',
         description='.',
@@ -376,7 +376,7 @@ with app.app_context():
     i_might_be_wrong = Song(
         title='I Might Be Wrong',
         album='Amnesiac',
-        music='.',
+        music='../assets/resource/music/IMightBeWrong.mp3',
         image='../assets/resource/pictures/planet.jpg',
         lyric='If I did not have you?',
         description='.',
@@ -387,7 +387,7 @@ with app.app_context():
     knives_out = Song(
         title='Knives Out',
         album='Amnesiac',
-        music='.',
+        music='../assets/resource/music/KnivesOut.mp3',
         image='../assets/resource/pictures/amnesiac.jpg',
         lyric='I’m not coming back',
         description='.',
@@ -398,7 +398,7 @@ with app.app_context():
     lotus_flower = Song(
         title='Lotus Flower',
         album='The King of Limbs',
-        music='.',
+        music='../assets/resource/music/LotusFlower.mp3',
         image='../assets/resource/pictures/thomdance.jpg',
         lyric='Listen to your heart',
         description='.',
@@ -409,7 +409,7 @@ with app.app_context():
     little_by_little = Song(
         title='Little by Little',
         album='The King of Limbs',
-        music='.',
+        music='../assets/resource/music/LittleByLittle.mp3',
         image='../assets/resource/pictures/artgrey.jpg',
         lyric='The last one out of the box',
         description='.',
@@ -420,7 +420,7 @@ with app.app_context():
     the_daily_mail = Song(
         title='The Daily Mail',
         album='The King of Limbs',
-        music='.',
+        music='../assets/resource/music/TheDailyMail.mp3',
         image='../assets/resource/pictures/thomjonny.jpg',
         lyric='Where’s the truth',
         description='.',
@@ -431,7 +431,7 @@ with app.app_context():
     the_butcher = Song(
         title='The Butcher',
         album='The King of Limbs',
-        music='.',
+        music='../assets/resource/music/TheButcher.mp3',
         image='../assets/resource/pictures/nightmare.jpg',
         lyric='My heart still pumping',
         description='.',
@@ -442,13 +442,90 @@ with app.app_context():
     creep = Song(
         title='Creep',
         album='Pablo Honey',
-        music='.',
+        music='../assets/resource/music/Creep.mp3',
         image='../assets/resource/pictures/creep.jpg',
         lyric='You\'re so fucking special',
         description='.',
         review_link='.',
         external='.',
         categories=[radiant]
+    )
+    black_star = Song(
+        title='Black Star',
+        album='The Bends',
+        music='../assets/resource/music/BlackStar.mp3',
+        image='../assets/resource/pictures/90srh.jpg',
+        lyric='Blame it on the satellite that beams me home',
+        description='.',
+        review_link='.',
+        external='.',
+        categories=[radiant]
+    )
+    optimistic = Song(
+        title='Optimistic',
+        album='Kid A',
+        music='../assets/resource/music/Optimistic.mp3',
+        image='../assets/resource/pictures/colorful.jpg',
+        lyric='This one\'s optimistic',
+        description='.',
+        review_link='.',
+        external='.',
+        categories=[radiant, smash]
+    )
+    go_to_sleep = Song(
+        title='Go to Sleep',
+        album='Hail to the Thief',
+        music='../assets/resource/music/GotoSleep.mp3',
+        image='../assets/resource/pictures/greenwoodbros.jpg',
+        lyric='May pretty horses come to you as you sleep',
+        description='.',
+        review_link='.',
+        external='.',
+        categories=[radiant]
+    )
+    ful_stop = Song(
+        title='Ful Stop',
+        album='A Moon Shaped Pool',
+        music='../assets/resource/music/FulStop.mp3',
+        image='../assets/resource/pictures/blucurtain.jpg',
+        lyric='This is a foul tasting medicine',
+        description='.',
+        review_link='.',
+        external='.',
+        categories=[erratic, smash]
+    )
+    you_and_whose_army = Song(
+        title='You and Whose Army',
+        album='Amnesiac',
+        music='../assets/resource/music/YouandWhoseArmy.mp3',
+        image='../assets/resource/pictures/bearminecraft.jpg',
+        lyric='Holy Roman Empire',
+        description='.',
+        review_link='.',
+        external='.',
+        categories=[erratic, radiant]
+    )
+    paperbag_writer = Song(
+        title='Paperbag Writer',
+        album='Hail to the Thief',
+        music='../assets/resource/music/PaperbagWriter.mp3',
+        image='../assets/resource/pictures/redbear.jpg',
+        lyric='Blow into this paperbag',
+        description='.',
+        review_link='.',
+        external='.',
+        categories=[erratic]
+    )
+    pop_is_dead = Song(
+        title='Pop is Dead',
+        album='Pablo Honey',
+        music='../assets/resource/music/PopIsDead.mp3',
+        image='../assets/resource/pictures/tealthom.jpg',
+        lyric='He left this message for us',
+        description='.',
+        review_link='.',
+        external='.',
+        categories=[radiant, smash]
     )
 
 
@@ -503,5 +580,12 @@ with app.app_context():
     db.session.add(the_daily_mail)
     db.session.add(the_butcher)
     db.session.add(creep)
+    db.session.add(black_star)
+    db.session.add(optimistic)
+    db.session.add(go_to_sleep)
+    db.session.add(ful_stop)
+    db.session.add(you_and_whose_army)
+    db.session.add(paperbag_writer)
+    db.session.add(pop_is_dead)
 
     db.session.commit()

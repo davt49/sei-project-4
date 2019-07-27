@@ -33,6 +33,7 @@
     "bulma": "^0.7.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-h5-audio-player": "^1.2.1",
     "react-router-dom": "^4.3.1"
   }
 }
