@@ -52,7 +52,8 @@ class SongsShow extends React.Component {
                   </div>
                   <div className="ssinfo">
                     <h4>{song.album}</h4>
-                    <p>{song.description}</p>
+                    <h4><a href={song.review_link} target="_blank" rel="noopener noreferrer">Review</a></h4>
+                    <h4><a href={song.external} target="_blank" rel="noopener noreferrer">Music Video</a></h4>
                   </div>
                   <Link to="/songs" className="float-right">Back to Songs</Link>
                 </div>

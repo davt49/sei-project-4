@@ -39,8 +39,8 @@ with app.app_context():
         image='../assets/resource/pictures/burnthewitch.jpg',
         lyric='This is a low flying panic attack',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2016/05/review-radiohead-a-moon-shaped-pool/',
+        external='https://www.youtube.com/watch?v=yI2oS2hoL0k',
         categories=[erratic, smash]
     )
     daydreaming = Song(
@@ -50,8 +50,8 @@ with app.app_context():
         image='../assets/resource/pictures/anima.jpg',
         lyric='Dreamers, they never learn',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2016/05/review-radiohead-a-moon-shaped-pool/',
+        external='https://www.youtube.com/watch?v=TTAU7lLDZYU',
         categories=[melancholy]
     )
     true_love_waits = Song(
@@ -61,8 +61,8 @@ with app.app_context():
         image='../assets/resource/pictures/thomslight.jpg',
         lyric='I’m not living, I’m just killing time',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2016/05/review-radiohead-a-moon-shaped-pool/',
+        external='https://www.youtube.com/watch?v=FbeXo4IJZw4',
         categories=[melancholy]
     )
 
@@ -116,8 +116,8 @@ with app.app_context():
         image='../assets/resource/pictures/moonshapedpool.jpg',
         lyric='There’s a spaceship blocking out the sky',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2016/05/review-radiohead-a-moon-shaped-pool/',
+        external='https://www.youtube.com/watch?v=i3__KOf6xZE',
         categories=[melancholy]
     )
     fifteen_step = Song(
@@ -127,8 +127,8 @@ with app.app_context():
         image='../assets/resource/pictures/inrainbows.jpg',
         lyric='You reel me out when you cut the string',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
+        external='https://www.youtube.com/watch?v=Wc8yMBD0e6s',
         categories=[erratic]
     )
     bodysnatchers = Song(
@@ -138,8 +138,8 @@ with app.app_context():
         image='../assets/resource/pictures/epiclights.jpg',
         lyric='And for anyone else to see, I’m alive',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
+        external='https://www.youtube.com/watch?v=OvLQnTDad1E',
         categories=[erratic, smash]
     )
     nude = Song(
@@ -149,8 +149,8 @@ with app.app_context():
         image='../assets/resource/pictures/thomdrawing.jpg',
         lyric='You paint yourself white',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
+        external='https://www.youtube.com/watch?v=BbWBRnDK_AE',
         categories=[radiant]
     )
     reckoner = Song(
@@ -160,8 +160,8 @@ with app.app_context():
         image='../assets/resource/pictures/radioheadart.jpg',
         lyric='Because we separate like ripples on a blank shore',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
+        external='https://www.youtube.com/watch?v=_uofQD-N6UI',
         categories=[erratic, smash, radiant]
     )
     house_of_cards = Song(
@@ -171,8 +171,8 @@ with app.app_context():
         image='../assets/resource/pictures/inrainbowsart.jpg',
         lyric='Forget about your house of cards and I’ll do mine',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
+        external='https://www.youtube.com/watch?v=8nTFjVm9sTQ',
         categories=[radiant]
     )
     jigsaw_falling_into_place = Song(
@@ -182,8 +182,8 @@ with app.app_context():
         image='../assets/resource/pictures/fjord.jpg',
         lyric='Words are a sawed off shotgun',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
+        external='https://www.youtube.com/watch?v=GoLJJRIWCLU',
         categories=[erratic, smash, radiant]
     )
     bangers_and_mash = Song(
@@ -193,8 +193,8 @@ with app.app_context():
         image='../assets/resource/pictures/glastored.jpg',
         lyric='I got the poison, poison, and now I want more',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
+        external='https://www.youtube.com/watch?v=2xN-H5QTYWs',
         categories=[smash]
     )
     airbag = Song(
@@ -204,8 +204,8 @@ with app.app_context():
         image='../assets/resource/pictures/OKComputer.jpg',
         lyric='I am born again',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/features/ok-computer-at-20/10038-exit-music-how-radioheads-ok-computer-destroyed-the-art-pop-album-in-order-to-save-it/',
+        external='https://www.youtube.com/watch?v=kBtpAPV-wXI',
         categories=[smash, radiant]
     )
     paranoid_android = Song(
@@ -215,8 +215,8 @@ with app.app_context():
         image='../assets/resource/pictures/band.jpg',
         lyric='Please could you stop the noise',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/features/ok-computer-at-20/10038-exit-music-how-radioheads-ok-computer-destroyed-the-art-pop-album-in-order-to-save-it/',
+        external='https://www.youtube.com/watch?v=fHiGbolFFGw',
         categories=[melancholy, erratic]
     )
     karma_police = Song(
@@ -226,8 +226,8 @@ with app.app_context():
         image='../assets/resource/pictures/yorkebow.jpg',
         lyric='Phew, for a minute there, I lost myself, I lost myself',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/features/ok-computer-at-20/10038-exit-music-how-radioheads-ok-computer-destroyed-the-art-pop-album-in-order-to-save-it/',
+        external='https://www.youtube.com/watch?v=1uYWYWPc9HU',
         categories=[radiant]
     )
     no_surprises = Song(
@@ -237,8 +237,8 @@ with app.app_context():
         image='../assets/resource/pictures/thomlight.jpg',
         lyric='I’ll take a quiet life',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/features/ok-computer-at-20/10038-exit-music-how-radioheads-ok-computer-destroyed-the-art-pop-album-in-order-to-save-it/',
+        external='https://www.youtube.com/watch?v=u5CVsCnxyXg',
         categories=[radiant]
     )
     man_of_war = Song(
@@ -248,8 +248,8 @@ with app.app_context():
         image='../assets/resource/pictures/manofwar.jpg',
         lyric='Dressed for the kill',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/features/ok-computer-at-20/10038-exit-music-how-radioheads-ok-computer-destroyed-the-art-pop-album-in-order-to-save-it/',
+        external='https://www.youtube.com/watch?v=DXP1KdZX4io',
         categories=[radiant]
     )
     just = Song(
@@ -259,8 +259,8 @@ with app.app_context():
         image='../assets/resource/pictures/oldbandppic.jpg',
         lyric='You do it to yourself, just you',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        external='https://www.youtube.com/watch?v=oIFLtNYI3Ls',
         categories=[smash]
     )
     high_and_dry = Song(
@@ -270,8 +270,8 @@ with app.app_context():
         image='../assets/resource/pictures/oldtable.jpg',
         lyric='The best thing that you ever, ever had',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        external='https://www.youtube.com/watch?v=7qFfFVSerQo',
         categories=[radiant]
     )
     fake_plastic_trees = Song(
@@ -281,8 +281,8 @@ with app.app_context():
         image='../assets/resource/pictures/thompink.jpg',
         lyric='A cracked polystyrene man',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        external='https://www.youtube.com/watch?v=n5h0qHwNrHk',
         categories=[radiant]
     )
     talk_show_host = Song(
@@ -292,8 +292,8 @@ with app.app_context():
         image='../assets/resource/pictures/jackets.jpg',
         lyric='With a gun and a pack of sandwiches and nothing',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        external='https://www.youtube.com/watch?v=9TTk57MChwM',
         categories=[melancholy]
     )
     everything_in_its_right_place = Song(
@@ -303,8 +303,8 @@ with app.app_context():
         image='../assets/resource/pictures/rhred.jpg',
         lyric='Yesterday I woke up sucking on a lemon',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2015/10/radiohead-kid-a-review-spin-magazine-simon-reynolds-2000/',
+        external='https://www.youtube.com/watch?v=QJMNUM4i2nc',
         categories=[erratic]
     )
     kid_a = Song(
@@ -314,8 +314,8 @@ with app.app_context():
         image='../assets/resource/pictures/kidamountains.jpg',
         lyric='Standing in the shadows at the end of my bed',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2015/10/radiohead-kid-a-review-spin-magazine-simon-reynolds-2000/',
+        external='https://www.youtube.com/watch?v=2NQ8woXu07c&t=112s',
         categories=[erratic, radiant]
     )
     national_anthem = Song(
@@ -325,8 +325,8 @@ with app.app_context():
         image='../assets/resource/pictures/jonnyg.jpg',
         lyric='Everyone, everyone around here',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2015/10/radiohead-kid-a-review-spin-magazine-simon-reynolds-2000/',
+        external='https://www.youtube.com/watch?v=Q5ez0Ic4UUQ',
         categories=[erratic]
     )
     idioteque = Song(
@@ -336,8 +336,8 @@ with app.app_context():
         image='../assets/resource/pictures/teal.jpg',
         lyric='Who\'s in a bunker?',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2015/10/radiohead-kid-a-review-spin-magazine-simon-reynolds-2000/',
+        external='https://www.youtube.com/watch?v=jX-fDKWGbRs',
         categories=[erratic, smash]
     )
     two_plus_two_equals_five = Song(
@@ -347,8 +347,8 @@ with app.app_context():
         image='../assets/resource/pictures/htttcow.jpg',
         lyric='I try to sing along and I get it all wrong',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.musicmusingsandsuch.com/musicmusingsandsuch/2019/2/28/feature-alternative-classics-radiohead-hail-to-the-thief',
+        external='https://www.youtube.com/watch?v=c6GO7c-zO6E',
         categories=[melancholy, smash]
     )
     there_there = Song(
@@ -358,8 +358,8 @@ with app.app_context():
         image='../assets/resource/pictures/radioheadgpstage.jpg',
         lyric='Steer away from these rocks',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.musicmusingsandsuch.com/musicmusingsandsuch/2019/2/28/feature-alternative-classics-radiohead-hail-to-the-thief',
+        external='https://www.youtube.com/watch?v=7AQSLozK7aA',
         categories=[radiant]
     )
     packt = Song(
@@ -369,8 +369,8 @@ with app.app_context():
         image='../assets/resource/pictures/radioheadbeargrass.jpg',
         lyric='Get off, get off, get off my case',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/reviews/albums/6659-amnesiac/',
+        external='https://www.youtube.com/watch?v=KXvrGsxU_II',
         categories=[erratic]
     )
     i_might_be_wrong = Song(
@@ -380,8 +380,8 @@ with app.app_context():
         image='../assets/resource/pictures/planet.jpg',
         lyric='If I did not have you?',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/reviews/albums/6659-amnesiac/',
+        external='https://www.youtube.com/watch?v=vOa--Dhu11M',
         categories=[erratic]
     )
     knives_out = Song(
@@ -391,8 +391,8 @@ with app.app_context():
         image='../assets/resource/pictures/amnesiac.jpg',
         lyric='I’m not coming back',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/reviews/albums/6659-amnesiac/',
+        external='https://www.youtube.com/watch?v=2Lpw3yMCWro',
         categories=[melancholy, erratic]
     )
     lotus_flower = Song(
@@ -402,19 +402,19 @@ with app.app_context():
         image='../assets/resource/pictures/thomdance.jpg',
         lyric='Listen to your heart',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.stereogum.com/1786306/in-defense-of-the-king-of-limbs/franchises/sounding-board/',
+        external='https://www.youtube.com/watch?v=cfOa1a8hYP8',
         categories=[erratic]
     )
     little_by_little = Song(
         title='Little by Little',
         album='The King of Limbs',
         music='../assets/resource/music/LittleByLittle.mp3',
-        image='../assets/resource/pictures/artgrey.jpg',
+        image='../assets/resource/pictures/artstars.jpg',
         lyric='The last one out of the box',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.stereogum.com/1786306/in-defense-of-the-king-of-limbs/franchises/sounding-board/',
+        external='https://www.youtube.com/watch?v=IxeCKTfHaDU',
         categories=[erratic]
     )
     the_daily_mail = Song(
@@ -424,8 +424,8 @@ with app.app_context():
         image='../assets/resource/pictures/thomjonny.jpg',
         lyric='Where’s the truth',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.stereogum.com/1786306/in-defense-of-the-king-of-limbs/franchises/sounding-board/',
+        external='https://www.youtube.com/watch?v=e8RwAgOMn48',
         categories=[radiant]
     )
     the_butcher = Song(
@@ -435,8 +435,8 @@ with app.app_context():
         image='../assets/resource/pictures/nightmare.jpg',
         lyric='My heart still pumping',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.stereogum.com/1786306/in-defense-of-the-king-of-limbs/franchises/sounding-board/',
+        external='https://www.youtube.com/watch?v=9vFX74g0CWk',
         categories=[erratic, smash]
     )
     creep = Song(
@@ -446,8 +446,8 @@ with app.app_context():
         image='../assets/resource/pictures/creep.jpg',
         lyric='You\'re so fucking special',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.vulture.com/2018/02/radioheads-first-album-25-years-later.html',
+        external='https://www.youtube.com/watch?v=XFkzRNyygfk',
         categories=[radiant]
     )
     black_star = Song(
@@ -457,8 +457,8 @@ with app.app_context():
         image='../assets/resource/pictures/90srh.jpg',
         lyric='Blame it on the satellite that beams me home',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        external='https://www.youtube.com/watch?v=SdcaTDeLmto',
         categories=[radiant]
     )
     optimistic = Song(
@@ -468,8 +468,8 @@ with app.app_context():
         image='../assets/resource/pictures/colorful.jpg',
         lyric='This one\'s optimistic',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2015/10/radiohead-kid-a-review-spin-magazine-simon-reynolds-2000/',
+        external='https://www.youtube.com/watch?v=COUaNmm53VA',
         categories=[radiant, smash]
     )
     go_to_sleep = Song(
@@ -479,8 +479,8 @@ with app.app_context():
         image='../assets/resource/pictures/greenwoodbros.jpg',
         lyric='May pretty horses come to you as you sleep',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.musicmusingsandsuch.com/musicmusingsandsuch/2019/2/28/feature-alternative-classics-radiohead-hail-to-the-thief',
+        external='https://www.youtube.com/watch?v=Fe6X9fLLp0Y',
         categories=[radiant]
     )
     ful_stop = Song(
@@ -490,8 +490,8 @@ with app.app_context():
         image='../assets/resource/pictures/blucurtain.jpg',
         lyric='This is a foul tasting medicine',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.spin.com/2016/05/review-radiohead-a-moon-shaped-pool/',
+        external='https://www.youtube.com/watch?v=YeP__JCmGvQ',
         categories=[erratic, smash]
     )
     you_and_whose_army = Song(
@@ -501,8 +501,8 @@ with app.app_context():
         image='../assets/resource/pictures/bearminecraft.jpg',
         lyric='Holy Roman Empire',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://pitchfork.com/reviews/albums/6659-amnesiac/',
+        external='https://www.youtube.com/watch?v=SZvzruRwubU',
         categories=[erratic, radiant]
     )
     paperbag_writer = Song(
@@ -512,8 +512,8 @@ with app.app_context():
         image='../assets/resource/pictures/redbear.jpg',
         lyric='Blow into this paperbag',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.musicmusingsandsuch.com/musicmusingsandsuch/2019/2/28/feature-alternative-classics-radiohead-hail-to-the-thief',
+        external='https://www.youtube.com/watch?v=4nGe9S3avaU',
         categories=[erratic]
     )
     pop_is_dead = Song(
@@ -523,8 +523,8 @@ with app.app_context():
         image='../assets/resource/pictures/tealthom.jpg',
         lyric='He left this message for us',
         description='.',
-        review_link='.',
-        external='.',
+        review_link='https://www.vulture.com/2018/02/radioheads-first-album-25-years-later.html',
+        external='https://www.youtube.com/watch?v=XYHSGQhswWE',
         categories=[radiant, smash]
     )
 
