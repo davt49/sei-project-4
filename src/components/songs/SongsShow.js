@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import axios from 'axios'
-// import Auth from '../../lib/Auth'
 import { Link } from  'react-router-dom'
 import AudioPlayer from 'react-h5-audio-player'
 
@@ -75,9 +74,3 @@ class SongsShow extends React.Component {
 }
 
 export default SongsShow
-
-// this.addLike = this.addLike.bind(this)
-
-// <figure className="image">
-//   <img className="songshowimage" src={song.image} alt={song.name} />
-// </figure>

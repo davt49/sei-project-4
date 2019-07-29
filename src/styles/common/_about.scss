@@ -1,0 +1,21 @@
+$title: 'Oswald', sans-serif;
+$text: 'Cormorant Garamond', serif;
+
+.aboutpage{
+  background-image: url("../assets/resource/pictures/stanley.jpg");
+  height: 130vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+.abouttext{
+  font-family: $title;
+  margin: 150px 0 100px 0;
+  font-size: 25px;
+  background-color: rgba(192,192,192,0.5);
+  color: navy;
+  h3{
+    // color: white;
+    font-size: 60px;
+    font-family: $title;
+  }
+}

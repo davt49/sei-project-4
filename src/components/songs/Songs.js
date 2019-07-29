@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import Song from './Song'
 import Auth from '../../lib/Auth'
-// import { Link } from  'react-router-dom'
+import { Link } from  'react-router-dom'
 
 class SongIndex extends React.Component {
   constructor() {
@@ -157,14 +157,21 @@ class SongIndex extends React.Component {
                 )}
               </div>
             </div>
+            <div className="conatiner">
+              <div className="columns ">
+                <div className="column is-12 has-text-centered">
+                </div>
+              </div>
+            </div>
+
             <footer className="navbar is-fixed-bottom footersection">
               <section className="navbar-start ">
+                <p>[<Link to="/about" className="">About</Link>]</p>
               </section>
-              <section className="navbar">
-              </section>
+
               <section className="navbar-end ">
                 <p>Made by [</p>
-                <a href="https://github.com/davt49"> David </a>
+                <a href="https://github.com/davt49" target="_blank" rel="noopener noreferrer"> David </a>
                 <p>] @GA with React + Flask</p>
               </section>
             </footer>

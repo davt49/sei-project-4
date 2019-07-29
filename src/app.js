@@ -8,12 +8,14 @@ import Login from './components/auth/login'
 import Register from './components/auth/register'
 import Songs from './components/songs/songs'
 import SongsShow from './components/songs/SongsShow'
+import About from './components/common/About'
 
 const App = () => {
   return (
     <BrowserRouter>
       <main>
         <Switch>
+          <Route path='/about' component={About}/>
           <Route path='/songs/:id' component={SongsShow}/>
           <Route path='/songs' component={Songs}/>
           <Route path='/register' component={Register}/>
@@ -28,20 +30,3 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 )
-
-
-
-// <Switch>
-//   <Route path='/chats/:chatId' component={ChatShow}/>
-//   <Route path='/chats' component={Chats}/>
-//   <Route path='/gems/new' component={GemCreate}/>
-//   <Route path='/gems/:gemId/edit' component={GemEdit}/>
-//   <Route path='/gems/:gemId' component={GemsShow}/>
-//   <Route path='/gems' component={Gems}/>
-//   <Route path='/profile' component={Profile}/>
-//   <Route path='/users/:userId' component={UserShow}/>
-//   <Route path='/register' component={Register}/>
-//   <Route exact path='/' component={Login} />
-// </Switch>
-// <Navbar />
-// <Footer/>

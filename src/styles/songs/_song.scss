@@ -31,5 +31,10 @@ $text: 'Cormorant Garamond', serif;
 }
 
 .songs-card{
+height: 300px;
+margin: 10px 0px;
 padding: 4px;
+  .songs-card:hover {
+    box-shadow: 5px 0px 20px 10px Silver;
+  }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import { Link } from  'react-router-dom'
 
 class Register extends React.Component {
   constructor() {
@@ -39,9 +40,9 @@ class Register extends React.Component {
             <div className="column is-2 registerbox">
               <form onSubmit={this.handleSubmit}>
                 <div className="form-group has-text-centered">
-                  <h2 className="title">Sign Up</h2>
+                  <h2 className="label is-medium">Sign Up</h2>
                   <input
-                    className={`input is-small input-sm ${this.state.errors.username ? 'is-error' : ''} `}
+                    className={`form-input input-sm ${this.state.errors.username ? 'is-error' : ''} `}
                     name="username"
                     placeholder="Username"
                     onChange={this.handleChange}
@@ -49,7 +50,7 @@ class Register extends React.Component {
                   {this.state.errors && <small className="help is-danger">{this.state.errors.username}</small>}
 
                   <input
-                    className={`input is-small input-sm ${this.state.errors.email ? 'is-error' : ''} `}
+                    className={`form-input input-sm ${this.state.errors.email ? 'is-error' : ''} `}
                     name="email"
                     placeholder="Email"
                     onChange={this.handleChange}
@@ -57,7 +58,7 @@ class Register extends React.Component {
                   {this.state.errors && <small className="help is-danger">{this.state.errors.email}</small>}
 
                   <input
-                    className={`input is-small input-sm ${this.state.errors.password ? 'is-error' : ''} `}
+                    className={`form-input input-sm ${this.state.errors.password ? 'is-error' : ''} `}
                     name="password"
                     placeholder="Password"
                     type="password"
@@ -65,20 +66,36 @@ class Register extends React.Component {
                   />
                   {this.state.errors && <small className="help is-danger">{this.state.errors.password}</small>}
 
-                  <input
-                    className={`input is-small input-sm ${this.state.errors.passwordConfirmation ? 'is-error' : ''} `}
-                    name="password_confirmation"
-                    placeholder="Password Confirmation"
-                    type="password"
-                    onChange={this.handleChange}
-                  />
+                  <div className="form-group">
+                    <input
+                      className={`form-input input-sm ${this.state.errors.passwordConfirmation ? 'is-error' : ''} `}
+                      name="password_confirmation"
+                      placeholder="Password Confirmation"
+                      type="password"
+                      onChange={this.handleChange}
+                    />
+                  </div>
+                  <br/>
                   {this.state.errors && <small className="help is-danger">{this.state.errors.passwordConfirmation}</small>}
                   <button type="submit" className="button">Submit</button>
+                  <p>Already Registered?</p>
+                  <Link to="/" className="has-text-centered">Back to Login</Link>
                 </div>
-
               </form>
+
             </div>
             <div className="column is-5"></div>
+            <footer className="navbar is-fixed-bottom footersection">
+              <section className="navbar-start ">
+              </section>
+              <section className="navbar">
+              </section>
+              <section className="navbar-end ">
+                <p>Made by [</p>
+                <a href="https://github.com/davt49"> David </a>
+                <p>] @GA with React + Flask</p>
+              </section>
+            </footer>
           </div>
         </div>
 

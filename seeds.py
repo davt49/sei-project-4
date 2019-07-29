@@ -179,7 +179,7 @@ with app.app_context():
         title='Jigsaw Falling Into Place',
         album='In Rainbows',
         music='../assets/resource/music/JigsawFallingIntoPlace.mp3',
-        image='../assets/resource/pictures/fjord.jpg',
+        image='../assets/resource/pictures/cloudyfield.jpg',
         lyric='Words are a sawed off shotgun',
         description='.',
         review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
@@ -259,7 +259,7 @@ with app.app_context():
         image='../assets/resource/pictures/oldbandppic.jpg',
         lyric='You do it to yourself, just you',
         description='.',
-        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        review_link='https://consequenceofsound.net/2015/03/radioheads-the-bends-turns-20/',
         external='https://www.youtube.com/watch?v=oIFLtNYI3Ls',
         categories=[smash]
     )
@@ -270,7 +270,7 @@ with app.app_context():
         image='../assets/resource/pictures/oldtable.jpg',
         lyric='The best thing that you ever, ever had',
         description='.',
-        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        review_link='https://consequenceofsound.net/2015/03/radioheads-the-bends-turns-20/',
         external='https://www.youtube.com/watch?v=7qFfFVSerQo',
         categories=[radiant]
     )
@@ -281,7 +281,7 @@ with app.app_context():
         image='../assets/resource/pictures/thompink.jpg',
         lyric='A cracked polystyrene man',
         description='.',
-        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        review_link='https://consequenceofsound.net/2015/03/radioheads-the-bends-turns-20/',
         external='https://www.youtube.com/watch?v=n5h0qHwNrHk',
         categories=[radiant]
     )
@@ -292,7 +292,7 @@ with app.app_context():
         image='../assets/resource/pictures/jackets.jpg',
         lyric='With a gun and a pack of sandwiches and nothing',
         description='.',
-        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        review_link='https://consequenceofsound.net/2015/03/radioheads-the-bends-turns-20/',
         external='https://www.youtube.com/watch?v=9TTk57MChwM',
         categories=[melancholy]
     )
@@ -457,7 +457,7 @@ with app.app_context():
         image='../assets/resource/pictures/90srh.jpg',
         lyric='Blame it on the satellite that beams me home',
         description='.',
-        review_link='https://www.billboard.com/articles/review/album-review/6501970/radiohead-bends-classic-review-album-anniversary',
+        review_link='https://consequenceofsound.net/2015/03/radioheads-the-bends-turns-20/',
         external='https://www.youtube.com/watch?v=SdcaTDeLmto',
         categories=[radiant]
     )
