@@ -1,3 +1,6 @@
+$title: 'Oswald', sans-serif;
+$text: 'Cormorant Garamond', serif;
+
 .songsshowbg{
   height: 110vh;
   width: 100vw;
@@ -9,10 +12,12 @@
   // -webkit-text-stroke-color: royalblue;
 }
 .sstitle{
+  font-family: $title;
   font-size:80px;
   color: white;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: royalblue;
+  -webkit-text-stroke-color: black
+  ;
 
 }
 
@@ -53,27 +58,35 @@
   }
 }
 
+.infoblock{
+  background-color: rgba(192,192,192,0.3);
+}
 
 
 
 .sslyric{
+  font-family: $text;
   font-size: 40px;
-  color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: royalblue;
+  color: black;
+  // -webkit-text-stroke-width: 1px;
+  // -webkit-text-stroke-color: white;
 
 }
 
 .sscategories{
+  font-family: $title;
   text-decoration: overline;
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: royalblue;
+  color: black;
+  font-size: 25px;
+  // -webkit-text-stroke-width: 1px;
+  // -webkit-text-stroke-color: royalblue;
 }
 
 .ssinfo{
-  margin-bottom: 200px;
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: royalblue;
+  font-family: $title;
+  margin-bottom: 100px;
+  color: black;
+  font-size: 25px;
+  // -webkit-text-stroke-width: 1px;
+  // -webkit-text-stroke-color: royalblue;
 }

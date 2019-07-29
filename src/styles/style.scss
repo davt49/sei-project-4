@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Oswald&display=swap');
 @import 'auth/login';
+@import 'auth/register';
 @import 'songs/song';
 @import 'songs/songsshow';
+@import 'common/footer';
+
+$title: 'Oswald', sans-serif;
+$text: 'Cormorant Garamond', serif;
 
 a {
+  font-family: $title;
   color: royalblue;
 
 

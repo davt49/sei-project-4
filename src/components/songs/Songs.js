@@ -120,27 +120,27 @@ class SongIndex extends React.Component {
                       />
                       <div className="filter-nav has-text-centered">
                         <label
-                          className={`filtertag chip ${this.state.checked === 0 ? 'has-text-primary' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 0 ? 'has-text-info' : ''}`}
                           htmlFor="tag-0">
                             Avant-Garde
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 1 ? 'has-text-primary' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 1 ? 'has-text-info' : ''}`}
                           htmlFor="tag-1">
                             Melancholy
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 2 ? 'has-text-primary' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 2 ? 'has-text-info' : ''}`}
                           htmlFor="tag-2">
                             Erratic
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 3 ? 'has-text-primary' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 3 ? 'has-text-info' : ''}`}
                           htmlFor="tag-3">
                             Smash
                         </label>
                         <label
-                          className={`filtertag chip ${this.state.checked === 4 ? 'has-text-primary' : ''}`}
+                          className={`filtertag chip ${this.state.checked === 4 ? 'has-text-info' : ''}`}
                           htmlFor="tag-4">
                             Radiant
                         </label>
@@ -157,9 +157,21 @@ class SongIndex extends React.Component {
                 )}
               </div>
             </div>
+            <footer className="navbar is-fixed-bottom footersection">
+              <section className="navbar-start ">
+              </section>
+              <section className="navbar">
+              </section>
+              <section className="navbar-end ">
+                <p>Made by [</p>
+                <a href="https://github.com/davt49"> David </a>
+                <p>] @GA with React + Flask</p>
+              </section>
+            </footer>
           </div>
 
         }
+
 
       </div>
     )

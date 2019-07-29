@@ -1,20 +1,20 @@
 $title: 'Oswald', sans-serif;
 $text: 'Cormorant Garamond', serif;
 
-// loginpage
-.loginbackground{
+.registersection{
   background-image: url("../assets/resource/pictures/rhlights.jpg");
   height: 130vh;
   width: 100vw;
   background-repeat: no-repeat;
 }
-.logintitle{
+
+.registertitle{
   font-family: $title;
   color: white;
   font-size: 60px;
 }
 
-.loginbox{
+.registerbox{
   font-family: $title;
   margin: 250px 0 0 0;
   background-color: rgba(192,192,192,0.5);

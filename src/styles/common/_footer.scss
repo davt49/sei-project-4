@@ -1,0 +1,10 @@
+$title: 'Oswald', sans-serif;
+$text: 'Cormorant Garamond', serif;
+
+.footersection{
+  font-family: $title;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.1);
+  color: black;
+  height: 1vh;
+}

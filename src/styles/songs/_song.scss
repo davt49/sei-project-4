@@ -1,8 +1,12 @@
+$title: 'Oswald', sans-serif;
+$text: 'Cormorant Garamond', serif;
+
 .songindex{
   height: 40vh;
 }
 
 .filtertag{
+  font-family: $title;
   border: 2px solid grey;
   border-radius: 10px;
   padding: 50px;
@@ -14,11 +18,13 @@
 }
 
 .indextitle{
+  font-family: $title;
   color: black;
   font-size: 60px;
 }
 
 .songsifeel{
+  font-family: $title;
   margin: 10px 0;
   font-size: 30px;
 

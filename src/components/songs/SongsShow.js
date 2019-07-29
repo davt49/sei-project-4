@@ -43,7 +43,7 @@ class SongsShow extends React.Component {
 
               </div>
               <div className="columns is-block">
-                <div className="column is-5 is-offset-7">
+                <div className="column is-5 is-offset-7 infoblock">
                   <h4 className="sslyric">{song.lyric}</h4>
                   <div className="sscategories">
                     {song.categories.map(category => {
