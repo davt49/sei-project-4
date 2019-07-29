@@ -26,7 +26,7 @@ class Register extends React.Component {
     e.preventDefault()
     axios.post('/api/register', this.state.data)
       .then(() => this.props.history.push('/'))
-      .catch(err => this.setState({ errors: err.response.data.errors }))
+      .catch(() => this.setState({ errors: 'Invalid Input or Already Registered' }))
   }
 
   render() {
@@ -42,7 +42,7 @@ class Register extends React.Component {
                 <div className="form-group has-text-centered">
                   <h2 className="label is-medium">Sign Up</h2>
                   <input
-                    className={`form-input input-sm ${this.state.errors.username ? 'is-error' : ''} `}
+                    className={`form-input ${this.state.errors ? 'is-danger' : ''} `}
                     name="username"
                     placeholder="Username"
                     onChange={this.handleChange}
@@ -50,7 +50,7 @@ class Register extends React.Component {
                   {this.state.errors && <small className="help is-danger">{this.state.errors.username}</small>}
 
                   <input
-                    className={`form-input input-sm ${this.state.errors.email ? 'is-error' : ''} `}
+                    className={`form-input ${this.state.errors ? 'is-danger' : ''} `}
                     name="email"
                     placeholder="Email"
                     onChange={this.handleChange}
@@ -58,7 +58,7 @@ class Register extends React.Component {
                   {this.state.errors && <small className="help is-danger">{this.state.errors.email}</small>}
 
                   <input
-                    className={`form-input input-sm ${this.state.errors.password ? 'is-error' : ''} `}
+                    className={`form-input ${this.state.errors ? 'is-danger' : ''} `}
                     name="password"
                     placeholder="Password"
                     type="password"
@@ -68,7 +68,7 @@ class Register extends React.Component {
 
                   <div className="form-group">
                     <input
-                      className={`form-input input-sm ${this.state.errors.passwordConfirmation ? 'is-error' : ''} `}
+                      className={`form-input ${this.state.errors ? 'is-danger' : ''} `}
                       name="password_confirmation"
                       placeholder="Password Confirmation"
                       type="password"
@@ -76,7 +76,7 @@ class Register extends React.Component {
                     />
                   </div>
                   <br/>
-                  {this.state.errors && <small className="help is-danger">{this.state.errors.passwordConfirmation}</small>}
+                  {this.state.errors && <small className="help is-danger">{this.state.errors.password_confirmation}</small>}
                   <button type="submit" className="button">Submit</button>
                   <p>Already Registered?</p>
                   <Link to="/" className="has-text-centered">Back to Login</Link>

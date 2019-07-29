@@ -36,7 +36,7 @@ with app.app_context():
         title='Burn The Witch',
         album='A Moon Shaped Pool',
         music='../assets/resource/music/BurnTheWitch.mp3',
-        image='../assets/resource/pictures/burnthewitch.jpg',
+        image='../assets/resource/pictures/burndwitch.jpg',
         lyric='This is a low flying panic attack',
         description='.',
         review_link='https://www.spin.com/2016/05/review-radiohead-a-moon-shaped-pool/',
@@ -184,7 +184,7 @@ with app.app_context():
         description='.',
         review_link='https://www.xsnoize.com/classic-album-revisted-radiohead-in-rainbows/',
         external='https://www.youtube.com/watch?v=GoLJJRIWCLU',
-        categories=[erratic, smash, radiant]
+        categories=[melancholy, erratic, radiant]
     )
     bangers_and_mash = Song(
         title='Bangers and Mash',
@@ -206,7 +206,7 @@ with app.app_context():
         description='.',
         review_link='https://pitchfork.com/features/ok-computer-at-20/10038-exit-music-how-radioheads-ok-computer-destroyed-the-art-pop-album-in-order-to-save-it/',
         external='https://www.youtube.com/watch?v=kBtpAPV-wXI',
-        categories=[smash, radiant]
+        categories=[radiant, smash]
     )
     paranoid_android = Song(
         title='Paranoid Android',
@@ -217,7 +217,7 @@ with app.app_context():
         description='.',
         review_link='https://pitchfork.com/features/ok-computer-at-20/10038-exit-music-how-radioheads-ok-computer-destroyed-the-art-pop-album-in-order-to-save-it/',
         external='https://www.youtube.com/watch?v=fHiGbolFFGw',
-        categories=[melancholy, erratic]
+        categories=[melancholy, erratic, smash]
     )
     karma_police = Song(
         title='Karma Police',
@@ -437,7 +437,7 @@ with app.app_context():
         description='.',
         review_link='https://www.stereogum.com/1786306/in-defense-of-the-king-of-limbs/franchises/sounding-board/',
         external='https://www.youtube.com/watch?v=9vFX74g0CWk',
-        categories=[erratic, smash]
+        categories=[melancholy, erratic]
     )
     creep = Song(
         title='Creep',
