@@ -6,7 +6,7 @@ class Register extends React.Component {
   constructor() {
     super()
 
-    this.state = { data: {}, errors: {} }
+    this.state = { data: {}, errors: '' }
 
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -18,8 +18,8 @@ class Register extends React.Component {
 
   handleChange({ target: { name, value } }) {
     const data = { ...this.state.data, [name]: value }
-    const errors = { ...this.state.errors, [name]: '' }
-    this.setState({ data, errors })
+    // const errors = { ...this.state.errors, [name]: '' }
+    this.setState({ data, errors: '' })
   }
 
   handleSubmit(e) {
@@ -37,17 +37,17 @@ class Register extends React.Component {
 
           <div className="columns">
             <div className="column is-5"></div>
-            <div className="column is-2 registerbox">
-              <form onSubmit={this.handleSubmit}>
+            <div className="column is-2 registerbox has-text-centered">
+              <form className="field" onSubmit={this.handleSubmit}>
+                <h2 className="label is-medium">Sign Up</h2>
+                {this.state.errors && <small className="help is-danger">{this.state.errors}</small>}
                 <div className="form-group has-text-centered">
-                  <h2 className="label is-medium">Sign Up</h2>
                   <input
                     className={`form-input ${this.state.errors ? 'is-danger' : ''} `}
                     name="username"
                     placeholder="Username"
                     onChange={this.handleChange}
                   />
-                  {this.state.errors && <small className="help is-danger">{this.state.errors.username}</small>}
 
                   <input
                     className={`form-input ${this.state.errors ? 'is-danger' : ''} `}
@@ -55,7 +55,7 @@ class Register extends React.Component {
                     placeholder="Email"
                     onChange={this.handleChange}
                   />
-                  {this.state.errors && <small className="help is-danger">{this.state.errors.email}</small>}
+
 
                   <input
                     className={`form-input ${this.state.errors ? 'is-danger' : ''} `}
@@ -64,7 +64,7 @@ class Register extends React.Component {
                     type="password"
                     onChange={this.handleChange}
                   />
-                  {this.state.errors && <small className="help is-danger">{this.state.errors.password}</small>}
+
 
                   <div className="form-group">
                     <input
@@ -76,7 +76,7 @@ class Register extends React.Component {
                     />
                   </div>
                   <br/>
-                  {this.state.errors && <small className="help is-danger">{this.state.errors.password_confirmation}</small>}
+
                   <button type="submit" className="button">Submit</button>
                   <p>Already Registered?</p>
                   <Link to="/" className="has-text-centered">Back to Login</Link>

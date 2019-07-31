@@ -363,7 +363,7 @@ with app.app_context():
         categories=[radiant]
     )
     packt = Song(
-        title='Packt Like Sardines in a Crushed Tin Box',
+        title='Packt Like Sardines in a Crushd Tin Box',
         album='Amnesiac',
         music='../assets/resource/music/PacktLikeSardinesinaCrushdTinBox.mp3',
         image='../assets/resource/pictures/radioheadbeargrass.jpg',
