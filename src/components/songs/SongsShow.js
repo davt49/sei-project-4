@@ -28,18 +28,15 @@ class SongsShow extends React.Component {
     const { song } = this.state
     return (
       <section className="songsshowbg" style={{backgroundImage: `url(${song.image})`}}>
-
         <div className="container">
           <Fragment>
             <div className="columns is-block">
               <div className="column is-12">
                 <h2 className="sstitle">{song.title}</h2>
-
                 <AudioPlayer
                   autoPlay
                   src={song.music}
                 />
-
               </div>
               <div className="columns is-block">
                 <div className="column is-5 is-offset-7 infoblock">
@@ -58,16 +55,8 @@ class SongsShow extends React.Component {
                 </div>
               </div>
             </div>
-
-
-
-
-
-
-
           </Fragment>
         </div>
-
       </section>
     )
   }
