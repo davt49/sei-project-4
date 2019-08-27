@@ -40,8 +40,6 @@ Base Model handles the datetime entries for user log in, posts and comments.
 
 User model and Auth controller handles the logging in. Using bcrypt to hash and validate the password input. Manages the tokens when logging in and validations.
 
-User model.
-
 ![](readmepics/usermodel.png)
 
 POST requests for login and register.
