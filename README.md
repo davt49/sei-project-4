@@ -2,6 +2,8 @@
 
 1 week long personal project using React.js, Flask.py, Marshmallow and SQLAlchemy.
 
+Styled with Bulma.
+
 ![](readmepics/feelingradiohead.png)
 
 ## Theme
