@@ -86,11 +86,11 @@ Connecting RESTful path from the backend to the components, which manages the fu
 
 ![](readmepics/browserrouter.png)
 
-###### Wins
+## Wins
 
 The data from the seeds file is nicely presented onto the render on the frontend. This creates a nice concentration of data that is easily managed and to make changes and additions to.
 
-###### Challenges
+## Challenges
 
 Flask has a simpler style compared to Node.js and while the file structure and syntax is less demanding the knowledge needed to manipulate the backend, I feel is higher. We studied it for two days and went ahead to build our project, so more practice would be needed for me to be more comfortable with it. Although I do prefer the syntax compared to Node.js.
 
@@ -100,6 +100,6 @@ The filter function needed the addition of .some() to make it work with multiple
 
 The songs are used for educational purposes as I'm well aware of copyright issues. However it was not intended to be used for profit but fan appreciation.
 
-###### Future Improvements
+## Future Improvements
 
 The addition of a user forum and Radiohead news section (if possible to link to an API) would be great, as well as information for tour dates and tickets. They will compliment the site well as a one stop shop for Radiohead.
