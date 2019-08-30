@@ -1,10 +1,27 @@
-# Project 4: Feeling Radiohead  
+# Feeling Radiohead  
 
-1 week long personal project using React.js, Flask.py, Marshmallow and SQLAlchemy.
+## Brief
 
-Styled with Bulma.
+Create an application using React with a Python backend
+
+## Timeframe & Team
+
+7 days, personal project
+
+Project is live here https://feeling-radiohead.herokuapp.com
 
 ![](readmepics/feelingradiohead.png)
+
+
+## Technologies
+- React
+- Python
+- Flask
+- Marshmallow
+- SQLAlchemy
+- Bulma
+- Git
+- Heroku
 
 ## Theme
 
@@ -90,7 +107,7 @@ Connecting RESTful path from the backend to the components, which manages the fu
 
 The data from the seeds file is nicely presented onto the render on the frontend. This creates a nice concentration of data that is easily managed and to make changes and additions to.
 
-## Challenges
+## Challenges and Main Takeaways
 
 Flask has a simpler style compared to Node.js and while the file structure and syntax is less demanding the knowledge needed to manipulate the backend, I feel is higher. We studied it for two days and went ahead to build our project, so more practice would be needed for me to be more comfortable with it. Although I do prefer the syntax compared to Node.js.
 
