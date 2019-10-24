@@ -8,7 +8,7 @@ Create an application using React with a Python backend
 
 7 days, personal project
 
-Project is live here https://feeling-radiohead.herokuapp.com
+Project is live here https://feeling-radiohead.herokuapp.com/songs (Quick Access)
 
 ![](readmepics/feelingradiohead.png)
 

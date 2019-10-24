@@ -30,8 +30,8 @@ class Login extends React.Component {
 
   render(){
     return(
-      <section>
-        <div className="loginbackground">
+      <section className="loginbackground">
+        <div >
 
           <h1 className='logintitle has-text-centered'>Feeling Radiohead</h1>
 
@@ -70,10 +70,6 @@ class Login extends React.Component {
             </div>
             <div className="column is-5"></div>
             <footer className="navbar is-fixed-bottom footersection">
-              <section className="navbar-start ">
-              </section>
-              <section className="navbar">
-              </section>
               <section className="navbar-end ">
                 <p>Made by [</p>
                 <a href="https://github.com/davt49"> David </a>
